@@ -1,0 +1,52 @@
+========================================================================
+                          THREAT TRIAGE REPORT                          
+========================================================================
+
+Generated : 2026-03-26 01:39:47 UTC
+
+INDICATOR DETAILS
+────────────────────────────────────────────────────────────────────────
+  Indicator : 185.220.101.34
+  Type      : IPv4 Address
+  Severity  : Low  [Score: 0/100]
+
+THREAT INTEL SUMMARY
+────────────────────────────────────────────────────────────────────────
+
+  [ipinfo.io]
+  Location : Berlin, State of Berlin, DE
+  Org/ASN  : AS60729 Stiftung Erneuerbare Freiheit
+  Hostname : tor-exit-34.for-privacy.net
+  Timezone : Europe/Berlin
+
+  [DNS (Reverse)]
+  PTR Record : tor-exit-34.for-privacy.net
+
+  [URLhaus (abuse.ch)]
+  [Skipped — No ABUSECH_API_KEY set]
+
+  [ThreatFox (abuse.ch)]
+  [Skipped — No ABUSECH_API_KEY set]
+
+  [AbuseIPDB]
+  [Skipped — No ABUSEIPDB_API_KEY set]
+
+  [VirusTotal]
+  [Skipped — No VT_API_KEY set]
+
+MITRE ATT&CK MAPPING
+────────────────────────────────────────────────────────────────────────
+  No MITRE ATT&CK techniques mapped.
+
+RECOMMENDED RESPONSE ACTIONS
+────────────────────────────────────────────────────────────────────────
+
+  [INVESTIGATE]
+    1. Note for documentation; no immediate action required.
+    2. Review context in which this IP appeared (log source, user
+       activity).
+
+  [LONG-TERM]
+    1. Continue monitoring standard baselines.
+
+========================================================================

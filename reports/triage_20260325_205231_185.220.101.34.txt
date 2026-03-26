@@ -1,0 +1,79 @@
+========================================================================
+                          THREAT TRIAGE REPORT                          
+========================================================================
+
+Generated : 2026-03-26 01:52:31 UTC
+
+INDICATOR DETAILS
+────────────────────────────────────────────────────────────────────────
+  Indicator : 185.220.101.34
+  Type      : IPv4 Address
+  Severity  : Critical  [Score: 84/100]
+
+THREAT INTEL SUMMARY
+────────────────────────────────────────────────────────────────────────
+
+  [ipinfo.io]
+  Location : Berlin, State of Berlin, DE
+  Org/ASN  : AS60729 Stiftung Erneuerbare Freiheit
+  Hostname : tor-exit-34.for-privacy.net
+  Timezone : Europe/Berlin
+
+  [DNS (Reverse)]
+  PTR Record : tor-exit-34.for-privacy.net
+
+  [URLhaus (abuse.ch)]
+  Status     : Not found in URLhaus database
+
+  [ThreatFox (abuse.ch)]
+  Status      : Not found in ThreatFox database
+
+  [AbuseIPDB]
+  Abuse Score   : 100%  (HIGH RISK)
+  Total Reports : 135 (64 unique reporters)
+  Last Reported : 2026-03-25T11:54:38+00:00
+  Usage Type    : Fixed Line ISP
+  ISP           : Network for Tor-Exit traffic.
+  Tor Exit Node : Yes
+
+  [VirusTotal]
+  Detections  : 17 malicious, 5 suspicious / 94 engines
+  Reputation  : -25 (negative = bad)
+  AS Owner    : Stiftung Erneuerbare Freiheit
+
+MITRE ATT&CK MAPPING
+────────────────────────────────────────────────────────────────────────
+  Tactic                      ID            Technique                         Confidence
+  --------------------------------------------------------------------
+  Initial Access              T1190         Exploit Public-Facing Application  Medium
+  Execution                   T1204.002     Malicious File                    High
+  Command and Control         T1090.003     Proxy: Multi-hop Proxy            High
+
+RECOMMENDED RESPONSE ACTIONS
+────────────────────────────────────────────────────────────────────────
+
+  [IMMEDIATE]
+    1. Block this IP at all perimeter firewalls and WAF rules
+       immediately.
+    2. Isolate any internal hosts observed communicating with this IP.
+    3. Revoke any active sessions originating from or destined to this
+       IP.
+    4. Escalate to incident response team — treat as active compromise.
+
+  [INVESTIGATE]
+    1. Search SIEM/EDR for all historical connections to/from this IP
+       (last 90 days).
+    2. Review firewall allow rules that may permit traffic to this IP.
+    3. Check proxy logs for HTTP/S requests; extract URLs and user-
+       agents.
+    4. Identify the first internal host that contacted this IP.
+    5. Determine what data may have been transmitted.
+
+  [LONG-TERM]
+    1. Add to automated threat feed blocklist and SOAR playbooks.
+    2. Submit IP to AbuseIPDB to contribute to community intelligence.
+    3. Consider geo-blocking the source country if not business-
+       critical.
+    4. Review and tighten egress filtering policies.
+
+========================================================================

@@ -1,0 +1,46 @@
+========================================================================
+                          THREAT TRIAGE REPORT                          
+========================================================================
+
+Generated : 2026-03-26 01:12:36 UTC
+
+INDICATOR DETAILS
+────────────────────────────────────────────────────────────────────────
+  Indicator : 203.0.113.42
+  Type      : IPv4 Address
+  Severity  : Low  [Score: 0/100]
+
+THREAT INTEL SUMMARY
+────────────────────────────────────────────────────────────────────────
+
+  [ipinfo.io]
+  Note: Bogon/private address space
+
+  [URLhaus (abuse.ch)]
+  [Skipped — No ABUSECH_API_KEY set]
+
+  [ThreatFox (abuse.ch)]
+  [Skipped — No ABUSECH_API_KEY set]
+
+  [AbuseIPDB]
+  [Skipped — No ABUSEIPDB_API_KEY set]
+
+  [VirusTotal]
+  [Skipped — No VT_API_KEY set]
+
+MITRE ATT&CK MAPPING
+────────────────────────────────────────────────────────────────────────
+  No MITRE ATT&CK techniques mapped.
+
+RECOMMENDED RESPONSE ACTIONS
+────────────────────────────────────────────────────────────────────────
+
+  [INVESTIGATE]
+    1. Note for documentation; no immediate action required.
+    2. Review context in which this IP appeared (log source, user
+       activity).
+
+  [LONG-TERM]
+    1. Continue monitoring standard baselines.
+
+========================================================================

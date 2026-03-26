@@ -1,0 +1,32 @@
+========================================================================
+                          THREAT TRIAGE REPORT                          
+========================================================================
+
+Generated : 2026-03-25 21:04:32 UTC
+
+INDICATOR DETAILS
+────────────────────────────────────────────────────────────────────────
+  Indicator : 44d88612fea8a8f36de82e1278abb02f
+  Type      : MD5 Hash
+  Severity  : Low  [Score: 0/100]
+
+THREAT INTEL SUMMARY
+────────────────────────────────────────────────────────────────────────
+
+  [VirusTotal]
+  [Skipped — No VT_API_KEY set]
+
+MITRE ATT&CK MAPPING
+────────────────────────────────────────────────────────────────────────
+  No MITRE ATT&CK techniques mapped.
+
+RECOMMENDED RESPONSE ACTIONS
+────────────────────────────────────────────────────────────────────────
+
+  [INVESTIGATE]
+    1. Document and cross-reference with other indicators.
+
+  [LONG-TERM]
+    1. No immediate action; continue monitoring.
+
+========================================================================

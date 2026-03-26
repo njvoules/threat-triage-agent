@@ -1,0 +1,46 @@
+========================================================================
+                          THREAT TRIAGE REPORT                          
+========================================================================
+
+Generated : 2026-03-25 21:03:24 UTC
+
+INDICATOR DETAILS
+------------------------------------------------------------------------
+  Indicator : 8.8.8.8
+  Type      : IPv4 Address
+  Severity  : Low  [Score: 0/100]
+
+THREAT INTEL SUMMARY
+------------------------------------------------------------------------
+
+  [ipinfo.io]
+  Location : Mountain View, California, US
+  Org/ASN  : AS15169 Google LLC
+  Hostname : dns.google
+  Timezone : America/Los_Angeles
+
+  [DNS (Reverse)]
+  PTR Record : dns.google
+
+  [AbuseIPDB]
+  [Skipped — No ABUSEIPDB_API_KEY set]
+
+  [VirusTotal]
+  [Skipped — No VT_API_KEY set]
+
+MITRE ATT&CK MAPPING
+------------------------------------------------------------------------
+  No MITRE ATT&CK techniques mapped.
+
+RECOMMENDED RESPONSE ACTIONS
+------------------------------------------------------------------------
+
+  [INVESTIGATE]
+    1. Note for documentation; no immediate action required.
+    2. Review context in which this IP appeared (log source, user
+       activity).
+
+  [LONG-TERM]
+    1. Continue monitoring standard baselines.
+
+========================================================================

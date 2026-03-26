@@ -1,0 +1,41 @@
+========================================================================
+                          THREAT TRIAGE REPORT                          
+========================================================================
+
+Generated : 2026-03-25 21:11:21 UTC
+
+INDICATOR DETAILS
+────────────────────────────────────────────────────────────────────────
+  Indicator : www.google.com
+  Type      : Domain
+  Severity  : Low  [Score: 0/100]
+
+THREAT INTEL SUMMARY
+────────────────────────────────────────────────────────────────────────
+
+  [DNS]
+  Resolves To : 142.251.150.119
+
+  [URLhaus (abuse.ch)]
+  [Skipped — No ABUSECH_API_KEY set]
+
+  [ThreatFox (abuse.ch)]
+  [Skipped — No ABUSECH_API_KEY set]
+
+  [VirusTotal]
+  [Skipped — No VT_API_KEY set]
+
+MITRE ATT&CK MAPPING
+────────────────────────────────────────────────────────────────────────
+  No MITRE ATT&CK techniques mapped.
+
+RECOMMENDED RESPONSE ACTIONS
+────────────────────────────────────────────────────────────────────────
+
+  [INVESTIGATE]
+    1. Document context; no immediate action required.
+
+  [LONG-TERM]
+    1. Continue standard monitoring.
+
+========================================================================
